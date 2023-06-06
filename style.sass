@@ -14,17 +14,20 @@ body
     border: 10px solid #6c38cc
     display: flex
     flex-flow: row wrap
+    height: 80vh
+    gap: 30px
+    
 
 .item
     background-color: #232228
     border: 1px solid  #6c38cc
     color: white 
     text-align: center
-    width: calc(100% / 3)
     padding: 10px
+    flex: 0 1 calc( 100% / 3 - 30px * 2 / 3)
+    
+    
 
-.item4
-    order: 1
 
-.item6
-    order: 2                      
+    
+
