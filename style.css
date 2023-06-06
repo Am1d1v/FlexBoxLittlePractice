@@ -10,8 +10,7 @@ body {
 .container {
   border: 10px solid #6c38cc;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .item {
@@ -25,4 +24,8 @@ body {
 
 .item4 {
   order: 1;
+}
+
+.item6 {
+  order: 2;
 }/*# sourceMappingURL=style.css.map */
